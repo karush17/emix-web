@@ -3,7 +3,7 @@ layout: default
 ---
 
 <span style="color:grey">8 minute read</span>
-<h1>Nergy-based Surprise Minimization for Multi-Agent Value Facotrization</h1>
+<h1>Energy-based Surprise Minimization for Multi-Agent Value Facotrization</h1>
 
 <p align="center"><img src="/images/2s_vs_1sc.gif" height="200" width="400" />   <img src="/images/so_many_baneling.gif" height="200" width="400" /></p>  
 
