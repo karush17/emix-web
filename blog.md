@@ -27,7 +27,7 @@ Value Factorization is a common technique which enables the joint value function
 
 Our choice of the energy operator is based on its unique mathematical properties which result in better convergence.The energy-based surprise minimization objective can be formulated by simply adding the approximated energy-based surprise to the initial Bellman objective as expressed below</p>    
 
-<p align="center"><img src="/images/obj.png" height="100" width="700" /></p>  
+<p align="center"><img src="/images/obj.PNG" height="100" width="700" /></p>  
 
 <h3>Performance on StarCraft II micromanagement</h3>  
 <p>We assess the performance and sample-efficiency of EMIX on multiagent StarCraft II micromanagement scenarios. We select StarCraft II scenarios particularly for three reasons. Firstly, micromanagement scenarios consist of a larger number of agents with different action spaces. This requires a greater deal of coordination in comparison to other benchmarks which attend to other aspects of MARL performance such as opponent-awareness. Secondly, micromanagement scenarios consist of partial observability wherein agents are restricted from responding to enemy fire and attacking enemies when they are in range. This allows agents to explore the environment effectively and find an optimal strategy purely based on collaboration rather than built-in game utilities. Lastly, micromanagement scenarios in StarCraft II consist of multiple opponents which introduce a greater degree of surprise within consecutive states. Irrespective of the time evolution of an episode, environment dynamics of each scenario change rapidly as the agents need to respond to enemy’s behavior.</p>  
@@ -42,7 +42,7 @@ When compared to QMIX, EMIX depicts improved success rates on all of the 12 scen
 
 <p>The importance of 𝛽 can be validated by assessing its usage in surprise minimization. However, it is difficult evaluate surprise minimization directly as surprise value function estimates vary from state-to-state across different agents and thus, they present high variance during agent’s learning. This, in turn poses hindrance to gain an intuitive understanding of the surprise distribution. We instead observe the variation of 𝐸 as it is a collection of surprise-based sample estimates across the batch. Additionally, 𝐸 consists of prior samples  which makes inference across different agents tractable. Figure below presents the variation of Energy ratio 𝐸 with the temperature parameter 𝛽 during learning.We compare two stable variations of E at 𝛽 = 0.001 and 𝛽 = 0.01. The objective minimizes 𝐸 over the course of learning and attain thermal equilibrium with minimum energy. Intuitively, equilibrium corresponds to convergence to optimal policy 𝜋∗ which validates the claim in Theorem 2. With 𝛽 = 0.01, EMIX presents improved convergence and surprise minimization for 5 out of the 6 considered scenarios, hence validating the suitable choice of 𝛽. On the other hand, a lower value of 𝛽 = 0.001 does little to minimize surprise across agents. In the case of high 𝛽 values, EMIX demonstrates unstable behavior as a result of increasing overestimation error. Thus, a suitable value of 𝛽 is critical for optimal performance and surprise-robust behavior.</p>
 
-<p align="center"><img src="/images/surprise.png" height="200" width="1400" /></p>  
+<p align="center"><img src="/images/surprise.png" height="150" width="1600" /></p>  
 
 <h3>The Way Ahead</h3>  
 
