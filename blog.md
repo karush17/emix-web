@@ -3,7 +3,7 @@ layout: default
 ---
 
 <span style="color:grey">8 minute read</span>
-<h1>Energy-based Surprise Minimization for Multi-Agent Value Facotrization</h1>
+<h1>Energy-based Surprise Minimization for Multi-Agent Value Factorization</h1>
 
 <p align="center"><img src="/images/2s_vs_1sc.gif" height="200" width="400" />   <img src="/images/so_many_baneling.gif" height="200" width="400" /></p>  
 
@@ -42,7 +42,7 @@ When compared to QMIX, EMIX depicts improved success rates on all of the 12 scen
 
 <p>The importance of 𝛽 can be validated by assessing its usage in surprise minimization. However, it is difficult evaluate surprise minimization directly as surprise value function estimates vary from state-to-state across different agents and thus, they present high variance during agent’s learning. This, in turn poses hindrance to gain an intuitive understanding of the surprise distribution. We instead observe the variation of 𝐸 as it is a collection of surprise-based sample estimates across the batch. Additionally, 𝐸 consists of prior samples  which makes inference across different agents tractable. Figure below presents the variation of Energy ratio 𝐸 with the temperature parameter 𝛽 during learning.We compare two stable variations of E at 𝛽 = 0.001 and 𝛽 = 0.01. The objective minimizes 𝐸 over the course of learning and attain thermal equilibrium with minimum energy. Intuitively, equilibrium corresponds to convergence to optimal policy 𝜋∗ which validates the claim in Theorem 2. With 𝛽 = 0.01, EMIX presents improved convergence and surprise minimization for 5 out of the 6 considered scenarios, hence validating the suitable choice of 𝛽. On the other hand, a lower value of 𝛽 = 0.001 does little to minimize surprise across agents. In the case of high 𝛽 values, EMIX demonstrates unstable behavior as a result of increasing overestimation error. Thus, a suitable value of 𝛽 is critical for optimal performance and surprise-robust behavior.</p>
 
-<p align="center"><img src="/images/surprise.png" height="50" width="800" /></p>  
+<p align="center"><img src="/images/surprise.png" height="75" width="850" /></p>  
 
 <h3>The Way Ahead</h3>  
 
