@@ -44,6 +44,6 @@ layout: default
 
 <p align="center"><img src='/images/10m_vs_11m.gif' align="center" height="400" width="800" /></p>  
 
-<center><h2>so_man_baneling</h2></center>  
+<center><h2>so_many_baneling</h2></center>  
 
 <p align="center"><img src='/images/so_many_baneling.gif' align="center" height="400" width="800" /></p>  
