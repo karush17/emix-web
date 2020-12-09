@@ -4,7 +4,7 @@ layout: default
 
 <center><h3>Karush Suri&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Xiao Qi Shi&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Konstantinos N. Plataniotis&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Yuri A. Lawryshyn</h3></center>
 
-<center><iframe width="560" height="315" src="https://www.youtube.com/embed/Vg6mmg8GIpo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+<center><iframe width="560" height="315" src="https://slideslive.com/38940985/energybased-surprise-minimization-for-multiagent-value-factorization?ref=account-folder-62083-folders" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 
 <h3>About EMIX</h3>
 
